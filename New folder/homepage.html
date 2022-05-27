@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Amazon Kindle Login Form</title>
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/90b2a1b900.js" crossorigin="anonymous"></script>
+    
+</head>
+
+
+<header>
+    <div class="navContent">
+        <nav>
+            <label class="label1" id="logo" > kindle<h1>.</h1> </label>
+            <ul style="margin-top:-50px"> <li> <a href="#">
+                <input type="search" placeholder="Search your books" >
+                <i class="fas fa-search"></i> </a></li>
+                <li><a href="#">New release</a></li>
+                <li><a href="#">Featured</a></li>
+                <li> <a href="#"><img src=".//assets-tool/icons/dots.png" alt=""> </a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <body onload="changeTheImage()">
+
+     <main class="wrapper">
+          <div class="sidebar">
+              <!--profile image container-->
+              <div class="imagecontainer">
+                  <!--image profile-->
+                  <div class="profile">
+                       <!--inserting image-->
+                       <img id="userimage" src=".//assets-tool/icons/profile.png" alt="">
+                       <p style="  margin-left:90px; text-align: left;" > Welcome <br>Back<br></p>
+                       <h2> <bold id="person-name">Sarah</bold></h2>
+                  </div>
+                  <br>
+                  <br>
+                    <ul>
+                      <li><a href="#">
+                           <span class="icon"><img src=".//assets-tool/logo/ha.png" alt=""></span>
+                           <span class="item" if> My <br>  Kindle Board</span>
+                      </a></li>
+                      <li><a href="#">
+                          <span class="icon"><i class="fa-solid fa-cube"></i>  </span>
+                          <span class="item"> Collections</span>
+                      </a></li>
+                      <li><a href="#">
+                          <span class="icon"><i class="fa fa-bookmark"></i>  </span>
+                          <span class="item"> Saved</span>
+                      </a></li>
+                      <li><a href="#"> 
+                          <span class="icon"> <i class="fa fa-user"></i> </span>
+                          <span class="item">  Profile</span>
+                      </a></li>
+                      <li><a href="#"> <span class="icon"> <i class="fa-solid fa-right-from-bracket"></i></i> </span>
+                          <span class="item"> Logout</span>
+                      </a></li>
+                  </ul>
+
+                    <div class="product">
+                         <img src=".//assets-tool/images/p-amazon.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+           
+            
+          <div class="scrollbar">
+                <div class="container">
+                    <h1>Books you read last</h1>
+                    <div class="horizontal-scroll">
+                        <button class="btn-scroll" id="btn-scroll-left" onclick="scrollHorizontally(1)"><i class="fas fa-chevron-left"></i></button>
+                        <button class="btn-scroll" id="btn-scroll-right"  onclick="scrollHorizontally(-1)"><i class="fas fa-chevron-right"></i></button>
+                        
+                        <div class="storys-container">
+                            <div class="story-circle">
+                                <div class="colorb1">
+                                    <div class="wordsb1">
+                                        <font size="-1" > <h4> Animal form </h4>
+                                            <p>Finished</p>
+                                        </font>
+                                        <div class="bookimg1"><img src="assets-tool/books/Animal-form.jpg"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="story-circle1">
+                                <div class="colorb2">
+                                    <div class="wordsb2">
+                                        <font size="-1" ><h4> Born a Crime </h4>
+                                            <p>195 Page. Chapter 7. Last read </p> 
+                                        </font>
+                                        <div class="bookimg2"><img src="assets-tool/books/Born-a-crime.jpg"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="story-circle2">
+                                <div class="colorb3">
+                                    <div class="wordsb3">
+                                        <font size="-1" ><h4> Coding Made it Easy </h4>
+                                            <p>254 page. Chapter 16. Last read</p>
+                                        </font>
+                                        <div class="bookimg3"><img src="assets-tool/books/coding.jpg"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="story-circle3">
+                                <div class="colorb4">
+                                    <div class="wordsb4">
+                                        <font size="-1" ><h4> House of Earth and Blood </h4>
+                                            <p>New pruchase. Not yet read</p>
+                                        </font>
+                                        <div class="bookimg4"><img src="assets-tool/books/House-of-Earth-and-Blood.jpg"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="story-circle4">
+                                <div class="colorb5">
+                                    <div class="wordsb5">
+                                        <font size="-1" ><h4> I Write What I Like</h4>
+                                            <p>267 Page. Chapter 11 .Last read</p>
+                                        </font>
+                                        <div class="bookimg5"><img src="assets-tool/books/I-write-what-l-like.jpg"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="story-circle5">
+                                <div class="colorb6">
+                                    <div class="wordsb6">
+                                        <font size="-1" ><h4> It Ends With Us </h4>
+                                            <p>Finished</p>
+                                        </font>
+                                        <div class="bookimg6"><img src="assets-tool/books/It-ends-with-us.jpg"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="story-circle6">
+                                 <div class="colorb7">
+                                    <div class="wordsb7">
+                                        <font size="-1" ><h4> The Silent Patient </h4>
+                                            <p>15 Page. Chapter 1. Last read</p>
+                                        </font>
+                                        <div class="bookimg7"><img src="assets-tool/books/Silent-patient.jpg"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="story-circle7">
+                               <div class="colorb8">
+                                    <div class="wordsb8">
+                                       <font size="-1" ><h4>The Giver of Stars</h4>
+                                        <p>47 Page. Chapter 2. Last read.</p>
+                                        <div class="bookimg8"><img src="assets-tool/books/The-Giver-of-Stars.jpg"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="story-circle8">
+                               <div class="colorb9">
+                                    <div class="wordsb9">
+                                        <font size="-1" ><h4>The Proverty Proof </h4>
+                                            <p>Finished</p>
+                                        </font>
+                                        <div class="bookimg9"><img src="assets-tool/books/poverty-proof.jpg"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="story-circle9">
+                                 <div class="colorb10">
+                                    <div class="wordsb10">
+                                        <font size="-1" ><h4> The Rise </h4>
+                                            <p>New pruchase.</p>
+                                        </font>
+                                        <div class="bookimg10"><img src="assets-tool/books/Rise.jpg"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+            </div> 
+           <!--This class is for the right scroll bar-->
+              
+           <div class="scrollbar1">
+            <div class="scroll1head">
+                <h2>New Release</h2>
+               </div>  
+                <div class="books">
+                    <img src="assets-tool/books/baking.jpg" alt="">
+                    <h3>Baking</h3>
+                    <p>Christine Capendale</p>
+                    <button>Healthly</button>
+                </div>
+                <div class="books">
+                    <img src="assets-tool/books/proverb.jpg" alt="">
+                    <h3>The Book of Proverb</h3>
+                    <p>Douglas Kruger</p>
+                    <button>Non-Fiction</button>
+                </div>
+                 <div class="books">
+                    <img src="assets-tool/books/key-finacial.jpg" alt="">
+                    <h3>The Key Financial Skills</h3>
+                    <p>Brain Brown</p>
+                    <button>Business - Finance</button>
+                </div>
+                 <div class="books">
+                    <img src="assets-tool/books/coding.jpg" alt="">
+                    <h3>Coding-Webs, Apps & Desktops</h3>
+                    <p>Adam Crute & Fredric Johnson</p>
+                    <button>Technology - Programming</button>
+                </div>
+                <div class="books">
+                    <img src="assets-tool/books/my-first-African-Adventure.jpg" alt="">
+                    <h3>My First African</h3>
+                    <p>Riaan Manser</p>
+                    <button>Adventure</button>
+                </div>
+                <div class="books">
+                    <img src=".//assets-tool/books/Love-n-above.jpg" alt="">
+                    <h3>Love and Above</h3>
+                    <p>Sarah Bullen</p>
+                    <button>Adventure</button>
+                </div>
+            </div>
+            <!--This class is for the right scroll bar wit the authers-->
+            <div class="scrollbar2">
+                <h1>Famous Authors</h1>
+                <div class="actors">
+                    <img src="assets-tool/images/Antjie-Krog.jpg" alt="">
+                    <h2>Antjie Krog</h2>
+                    <p>51 Books</p>
+                </div>
+                <br>
+                <div class="actors">
+                    <img src="assets-tool/images/George-Orwell.jpg" alt="">
+                    <h2>George Orwell</h2>
+                    <p>83 Novels</p>
+                </div>
+                  <br>
+                <div class="actors">
+                    <img src="assets-tool/images/W.Shakespeare.jpg" alt="">
+                    <h2>William Shakespeare</h2>
+                    <p>38 Plays</p>
+                </div>
+            </div>
+        </div>
+              
+        </main>
+        <script>
+             
+            let currentScrollPosition = 0;
+            let scrollAmount = 400;
+            const  sCont = document.querySelector(".storys-container");
+            const hScroll = document.querySelector(".horizontal-scroll");
+            const btnScrollLeft = document.querySelector("#btn-scroll-left");
+            const btnScrollRight = document.querySelector("#btn-scroll-right");
+            btnScrollLeft.style.opacity = "0";
+           
+            let maxScroll = -sCont.offsetWidth + hScroll.offsetWidth;
+             function scrollHorizontally(val){
+                 currentScrollPosition += (val * scrollAmount);
+                 sCont.style.left = currentScrollPosition + "px";
+                 if(currentScrollPosition >= 0){
+                      currentScrollPosition = 0
+                      btnScrollLeft.style.opacity = "1";
+                 }
+                 else{
+                   btnScrollLeft.style.opacity = "1";
+                 }
+                 if(currentScrollPosition <= maxScroll){
+                     currentScrollPosition = maxScroll;
+                     btnScrollRight.style.opacity = "1";
+
+                 }
+                 else{
+                   btnScrollRight.style.opacity = "1";
+                 }
+                 sCont.style.left=currentScrollPosition + "px"; 
+             }
+        </script>
+
+        <script src="script.js"></script>
+    </body>
+</html>
